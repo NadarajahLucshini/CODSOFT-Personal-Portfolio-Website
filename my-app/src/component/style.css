@@ -1,0 +1,66 @@
+/* General styles for the sidebar */
+.sidebar {
+    width: 10%; /* Set the width to 10% of the page */
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fixed position on the screen */
+    right: 0; /* Align to the right side */
+    top: 0; /* Start from the top */
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 20px; /* Padding inside the sidebar */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better separation */
+    justify-content: space-evenly; /* Distribute space evenly between children */
+  }
+  
+  /* Styles for individual button containers */
+  .sidebar div {
+    margin-bottom: 15px; /* Space between buttons */
+    width: 100%; /* Ensure divs take full width */
+  }
+  
+  /* Styles for buttons */
+  .sidebar button {
+    width: 100%; /* Full width buttons */
+    padding: 10px; /* Padding inside the buttons */
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; /* Relative positioning for pseudo-element */
+    overflow: hidden; /* Hide the pseudo-element when out of bounds */
+  }
+  
+  /* Hover effect for buttons */
+  .sidebar button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Loading indicator */
+  .loading {
+    margin-top: 20px; /* Space above the loading indicator */
+    font-size: 14px; /* Font size for loading text */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Cursor animation */
+  .sidebar button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    width: 200%; /* Double the width of the button */
+    height: 300%; /* Triple the height of the button */
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    transform: translateY(-50%) rotate(45deg); /* Rotate and center vertically */
+    transition: left 0.3s ease; /* Smooth transition */
+  }
+  
+  .sidebar button:hover::before {
+    left: 100%; /* Move the pseudo-element to the right */
+  }
+  
