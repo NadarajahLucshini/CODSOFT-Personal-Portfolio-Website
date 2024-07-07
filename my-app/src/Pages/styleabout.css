@@ -1,0 +1,161 @@
+/* styleabout.css */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url('../picture/—Pngtree—website\ technology\ line\ dark\ background_2443641.png');
+    background-size: cover;
+}
+
+.detail {
+    width: 80%;
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 1rem rgb(4, 242, 202);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+.skill {
+    flex: 1;
+
+   
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pic {
+
+
+
+    
+
+    height: 200px;
+
+    
+
+}
+
+.profile-pic {
+    margin-bottom: 80px;
+    width: 200px;
+    height: 100%;
+
+    border-radius: 50%;
+   
+    box-shadow: 0.1rem 0.1rem 1rem rgb(4, 242, 202);
+
+}
+
+.c02 {
+    
+    padding: 10px;
+    box-shadow: 0.1rem 0.1rem 1rem rgb(4, 242, 202);
+
+}
+
+
+.education {
+    flex: 1;
+    padding: 0 20px;
+   ;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0.1rem 0.1rem 1rem rgb(4, 242, 202);
+}
+
+.sk {
+   
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0.1rem 0.1rem 1rem rgb(4, 242, 202);
+}
+
+.education h2 {
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.edu-item {
+    margin-bottom: 20px;
+}
+
+.edu-item h3 {
+    margin: 0;
+    color: white;
+}
+
+.edu-item p {
+    margin: 5px 0;
+    color: white;
+}
+
+.skill h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.skill p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: white;
+}
+
+.progress {
+    background-color: transparent;
+    border-radius: 13px;
+    padding: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    border: white solid 1px;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(4, 242, 202);
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+h3 {
+    margin-top: 0;
+    color: white
+}
+
+h4 {
+    margin: 0 0 20px 0;
+    color: white;
+
+}
+
+
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(4, 242, 202);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: transparent;
+    border: rgb(4, 242, 202) solid 3px;
+}
+

@@ -1,0 +1,93 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-image: url('../picture/—Pngtree—website\ technology\ line\ dark\ background_2443641.png');
+  background-size: cover;  
+}
+
+
+
+.swiper {
+  width: 80%;
+  padding:5px;
+ margin-top: 30px;
+  margin-left: 20px;
+ 
+}
+
+.swiper-slide {
+ 
+  width: 90%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 0.5rem;
+  overflow: hidden;
+  
+
+}
+
+.swiper-slide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border: solid 2px rgb(4, 242, 202);
+  box-shadow: 0.2rem 0.2rem 2rem rgb(4,242,202);
+  border-radius: 10px;
+}
+
+.imageslide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: transparent;
+  box-shadow: 0.1rem 0.1rem 1rem white;
+  width: 80%;
+  border-radius: 20px;
+
+}
+
+
+
+.pra {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.pra h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 2px white; /* Adds a subtle text shadow */
+  color: #22f9f5; /* Sets text color */
+  font-weight: bold; /* Makes text bold */
+  text-transform: uppercase; /* Transforms text to uppercase */
+  /*letter-spacing: 1px; /* Adds letter spacing */
+  text-align: center; /* Centers text */
+  line-height: 1.2; /* Adjusts line height */
+  font-family:cursive; /* Specifies font family */
+ 
+}
+
+.pra p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family:monospace;
+  color: white;
+}
+
+
+
+.pra h2:hover {
+  
+  text-shadow: 1px 1px 2px rgb(4, 242, 202); /* Adds a subtle text shadow */
+  
+  font-size: 30px;
+  
+  
+ 
+}
